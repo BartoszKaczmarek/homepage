@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.backgroundColorLight {
+    background-color: rgb(197, 196, 196);
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+.backgroundColorDark {
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+
+.fontStyle {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+
+.header1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(156, 156, 156);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited {
+    color: currentColor;
+}
+
+.link:hover {
+    font-weight: 700;
+}
+
+.navList {
+    font-size: 20px;
+    display: flex;
+    background-color: lightslategrey;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.waznyElement {
+    color: crimson;
+}
+
+.newElementDimesions {
+    height: auto;
+}
+
+.orderedList {
+    list-style-position: inside;
+    padding: 30px;
+}
+
+.newBorder {
+    margin: auto;
+    width: 320px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-left-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    outline: 10px;
+    outline-style: solid;
+    outline-color: rgb(39, 38, 112);
+    padding: 15px;
+}
+
+.tableHeader {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkblue;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.tableRow:nth-child(even) {
+    background-color: lightgray;
+}
